@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body { background-color: #add8e6; }
+        table { background: #fff; }
+        th, td { text-align: left; }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Job Application Form</h1>
+        <form>
+            <table border="1" cellpadding="10" cellspacing="0">
+                <!-- Personal Details -->
+                <tr>
+                    <th><label for="first">First name:</label></th>
+                    <td colspan="2"><input type="text" name="first" id="first" required></td>
+                </tr>
+                <tr>
+                    <th><label for="middle">Middle name:</label></th>
+                    <td colspan="2"><input type="text" name="middle" id="middle"></td>
+                </tr>
+                <tr>
+                    <th><label for="last">Last name:</label></th>
+                    <td colspan="2"><input type="text" name="last" id="last" required></td>
+                </tr>
+                <tr>
+                    <th><label for="addr">Address:</label></th>
+                    <td colspan="2"><textarea name="addr" id="addr" rows="2" required></textarea></td>
+                </tr>
+                <tr>
+                    <th>Phone:</th>
+                    <td>
+                        <label for="mobile">Mobile:</label>
+                        <input type="tel" name="mobile" id="mobile" pattern="[0-9]{10}" required>
+                    </td>
+                    <td>
+                        <label for="hometel">Home:</label>
+                        <input type="tel" name="hometel" id="hometel" pattern="[0-9]{10}">
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="email">Email:</label></th>
+                    <td colspan="2"><input type="email" name="email" id="email" required></td>
+                </tr>
+                <!-- Education and Experience -->
+                <tr>
+                    <th colspan="3"><h2>Education and Experience</h2></th>
+                </tr>
+                <tr>
+                    <th><label for="education">Education:</label></th>
+                    <td colspan="2"><input type="text" name="education" id="education" required></td>
+                </tr>
+                <tr>
+                    <th><label for="experience">Experience:</label></th>
+                    <td colspan="2"><input type="text" name="experience" id="experience"></td>
+                </tr>
+                <tr>
+                    <th><label for="skills">Skills:</label></th>
+                    <td colspan="2"><input type="text" name="skills" id="skills"></td>
+                </tr>
+                <tr>
+                    <th>Job desired:</th>
+                    <td>
+                        <input type="radio" name="jobtype" id="fulltime" value="Full Time" required>
+                        <label for="fulltime">Full time</label>
+                        <br>
+                        <input type="radio" name="jobtype" id="parttime" value="Part Time">
+                        <label for="parttime">Part time</label>
+                        <br>
+                        <input type="radio" name="jobtype" id="temporary" value="Temporary">
+                        <label for="temporary">Temporary</label>
+                    </td>
+                    <td></td>
+                </tr>
+                <!-- References -->
+                <tr>
+                    <th colspan="3"><h2>References</h2></th>
+                </tr>
+                <tr>
+                    <th><label for="ref1">Reference 1:</label></th>
+                    <td colspan="2"><input type="text" name="ref1" id="ref1"></td>
+                </tr>
+                <tr>
+                    <th><label for="ref2">Reference 2:</label></th>
+                    <td colspan="2"><input type="text" name="ref2" id="ref2"></td>
+                </tr>
+                <!-- Submit/Reset -->
+                <tr>
+                    <td colspan="3" style="text-align:center;">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
