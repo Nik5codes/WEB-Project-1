@@ -1,0 +1,17 @@
+.border {
+    border-style:groove;
+    border-width:4px;
+    position: fixed;
+    border-radius: 30px;
+    text-orientation: upright;
+    border-top-width: 10px;
+    border-right-width: 50px;
+    border-bottom-width: 50px;
+    border-left-width: 50%;
+    border-color: aqua
+    background-clip:aquamarine;
+}
+.special {
+    border-style: dashed;
+    border-width: 2px;
+}
