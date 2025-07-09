@@ -1,0 +1,7 @@
+    <div>
+        <h2>Burger</h2>
+        <p><b>      <a href="vegburger.html">Veg Burger</a>                          <font color="red">Rs 30</b></p></font>
+        <p><b>      <a href="paneerburger">Paneer Burger</a>                       <font color="red">Rs 30</b></p></font>
+        <p><b>      <a href="fruitburger.html">Fruit Burger</a>                        <font color="red">Rs 30</b></p></font>
+        <p><b>      <a href="cheeseburger.html">Cheese Burger</a>                       <font color="red">Rs 30</b></p></font>
+    </div>
