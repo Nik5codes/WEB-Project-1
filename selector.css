@@ -1,0 +1,50 @@
+a[href="www.google.com"]:hover{
+    color: red;
+}
+a[href="www.youtube.com"]:link{
+    color: rgb(255, 0, 187);
+}
+p::first-line{
+    color: rgb(255, 173, 21);
+}
+h1 {
+    color: rgb(107, 79, 0);
+}
+h2, input[type="text"] {
+    color: green;
+}
+.fifth {
+    color: #00e1ff;
+}
+div h6 {
+    color: orange;
+}
+div > h5 {
+    color: yellow;
+}
+div > input[name="email"] {
+    color: rgb(255, 0, 157);
+}
+img[src=Nikhil_k]:hover {
+    color:maroon
+}
+/* div {
+    background-color: aquamarine;
+    opacity: 0.8;
+} */
+p {
+    background-color: rgba(77,34,25, 0.5);
+}
+img {
+    opacity: 0.5;
+}
+iframe {
+    opacity: 0.7;
+}
+body {
+    background-image: url("Nikhil_k.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: width 100%, height 100%;
+}

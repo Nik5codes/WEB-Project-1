@@ -1,0 +1,28 @@
+* /* Universal selector */
+{
+    color: blue;
+}
+h1 {
+    color: red;
+}
+#ee123 {
+    color: purple;
+}
+h2, input[type="text"] {
+    color: green;
+}
+div h6 {
+    color: orange;
+}
+div > h5 {
+    color: yellow;
+}
+/* input[name="email"] {
+    color: rgb(218, 0, 0);
+} */
+div > input[name="email"] {
+    color: rgb(255, 0, 157);
+}
+a[href="https://www.google.com"] {
+    color: rgb(255, 162, 0);
+}
