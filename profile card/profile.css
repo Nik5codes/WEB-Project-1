@@ -1,0 +1,27 @@
+.body {
+    background-color: rgb(227, 227, 227);
+}
+
+.profile-card {
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 16px;
+    padding: 32px 24px;
+    width: 320px;
+    margin: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.profile-card img {
+    width: 100px;
+    height: 100px;
+    background: #eee;
+    border: 1px solid #bbb;
+    border-radius: 100px;
+    margin: 10px auto 20px auto;
+}
+.profile-card h1 {
+    margin: 0 0 12px 0;
+}

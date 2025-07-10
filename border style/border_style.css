@@ -1,4 +1,4 @@
-.border {
+/* .border {
     border-style:groove;
     border-width:4px;
     position: fixed;
@@ -14,4 +14,48 @@
 .special {
     border-style: dashed;
     border-width: 2px;
+} */
+
+
+.border {
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 40px auto;
+    padding: 40px 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(157, 22, 225);
+}
+.border:hover{
+    background-color: aqua;
+}
+.outerborder{
+    border: 2px solid;
+    margin: 40px auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.outerborder:hover{
+    background-color: blue;
+}
+.outside{
+    border:2px solid;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.outside:hover{
+    background-color: chartreuse;
+}
+.outofcountry{
+    border: 2px solid;
+    border-style: dashed;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.outofcountry:hover{
+    background-color: cyan;
 }
